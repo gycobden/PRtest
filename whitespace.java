@@ -1,11 +1,12 @@
 public class whitespace {
   public static void main(String[] args) {
-whitespace(); 
+    printWhitespaceLove(); 
   }
 
-    public static void whitespace() {
-        System.out.println("I");
-System.out.println("love");
-          System.out.println("using whitespace!");
-}
+  // prints sentence about love for whitespace
+  public static void printWhitespaceLove() {
+    System.out.println("I");
+    System.out.println("love");
+    System.out.println("using whitespace!");
+  }
 }
